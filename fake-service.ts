@@ -10,7 +10,7 @@ const createScvDefFake = () => {
                 parameter: "NoParameters",
                 returnType: primitive("string"),
                 // ok: typescript.deployed-to-lunadb-true
-                deployedToLunaDb: false,
+                deployedToLunaDb: true,
                 ownershipTaskUrl: "12345",
                 teamOwner: "team",
             }),
